@@ -1,5 +1,11 @@
-baseurl = "http://luiz.mascarenhas.it.s3-website-us-east-1.amazonaws.com/"
+baseurl = "http://luiz.mascarenhas.it"
 languageCode = "en-us"
 title = "Luiz Mascarenhas"
-theme = "nofancy"
-pygmentsStyle = "native"
+theme = "Luiz Mascarenhas"
+Paginate = 10
+
+[params]
+  twitterName = "luizfernando2"
+  githubName = "lmascarenhas"
+  description = "Infrastructure Analyst and DevOps Enthusiast"
+  google_analytics = "UA-xxxxxx-xx"
