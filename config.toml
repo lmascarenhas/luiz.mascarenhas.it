@@ -1,4 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://luiz.mascarenhas.it.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Luiz Mascarenhas"
-theme = "hugo-uno"
+theme = "nofancy"
+pygmentsStyle = "native"
