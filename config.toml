@@ -1,11 +1,61 @@
-baseurl = "http://luiz.mascarenhas.it"
-languageCode = "en-us"
-title = "Luiz Mascarenhas"
-theme = "Luiz Mascarenhas"
-Paginate = 10
+## Basic Configuration
 
+baseurl = "http://luiz.mascarenhas.it" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Luiz Mascarenhas"
+title = "Luiz Mascarenhas"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "lmascarenhas" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-  twitterName = "luizfernando2"
-  githubName = "lmascarenhas"
-  description = "Infrastructure Analyst and DevOps Enthusiast"
-  google_analytics = "UA-xxxxxx-xx"
+    author = "Luiz Mascarenhas"
+    intro = "Infrastructure Analyst and DevOps Enthusiast"
+    description = "Now @Mobicare. Previously @AcotelDoBrasil."
+#<br/> \"What is F times 5? It's Fleventy-five.\""
+    authorImage = "luiz-caricatura.png"
+    dateFormat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+    description = "Simple minimalist theme"
+    keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+    github = "lmascarenhas"
+    instagram = "luizfernando2"
+    linkedIn = "lmascarenhas"
+    twitter = "luizfernando2"
+    facebook = "lfmascarenhas"
+    email = "luizfernando@mascarenhas.it"
+
+## Extras
+[params.extra]
+    copyright = "© 2016. Luiz Mascarenhas" 
+    poweredBy = true
+    hightlightJS = true
+
+## Main Menu
+#[[menu.main]]
+#    name = "blog"
+#    weight = 100
+#    identifier = "blog"
+#    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
